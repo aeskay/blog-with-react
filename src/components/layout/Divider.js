@@ -5,7 +5,7 @@ function Divider({text}) {
         <div className="text-divider-container">
             <br/>
             <div className="well">
-                <h3 className="text-divider"><span>{text}</span></h3>
+                <h4 className="text-divider"   style={{fontSize: '1.5rem'}}><span>{text}</span></h4>
             </div>
         </div>
     )

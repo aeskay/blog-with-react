@@ -4,7 +4,7 @@ import Divider from '../layout/Divider'
 function About() {
     return (
         <div className="container">
-            <Divider text={<span>About React Blog</span>}/>
+            <Divider text={<span>About Us</span>}/>
             <div className="py-4">
             <div className="py-4">
                 <h3 className="display-4 text-left">Declarative</h3>

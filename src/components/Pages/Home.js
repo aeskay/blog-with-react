@@ -41,21 +41,21 @@ function Home() {
     })
     return (
         <div>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <div style={{height: '50vh'}} id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div className="carousel-inner">
+                <div className="carousel-inner" >
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src="images/bg-1.jpg" alt="First slide"/>
+                        <img  style={{height: '55vh'}} className="d-block w-100" src="images/bg-1.jpg" alt="First slide"/>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="images/bg-2.jpg" alt="Second slide"/>
+                        <img  style={{height: '55vh'}} className="d-block w-100" src="images/bg-2.jpg" alt="Second slide"/>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="images/bg-3.jpg" alt="Third slide"/>
+                        <img  style={{height: '55vh'}} className="d-block w-100" src="images/bg-3.jpg" alt="Third slide"/>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,7 +68,7 @@ function Home() {
                 </a>
             </div>
 
-            <Divider text={<span>Featured Posts</span>}/>
+            <Divider text={<span>Featured Posts</span>}/> 
             <div className="pt-4">
                 <Carousel shuffled={shuffled}/>
             </div>
